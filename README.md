@@ -89,16 +89,3 @@ gulp runtests-parallel # Like runtests, but split across multiple threads. Uses 
 gulp baseline-accept   # This replaces the baseline test results with the results obtained from gulp runtests.
 gulp lint              # Runs eslint on the TypeScript source.
 gulp help              # List the above commands.
-```
-
-
-## Usage
-
-```bash
-node built/local/tsc.js hello.ts
-```
-
-
-## Roadmap
-
-For details on our planned features and future direction please refer to our [roadmap](https://github.com/microsoft/TypeScript/wiki/Roadmap).
